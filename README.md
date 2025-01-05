@@ -1,0 +1,2 @@
+# Ada Subtype Range Constraint Error
+This example demonstrates a common error in Ada programming: exceeding the range of a subtype.  The `My_Sub_Type` subtype is defined with a range of 1 to 10. However, the loop increments `My_Variable` beyond this range, resulting in a constraint error at runtime.  The solution shows how to prevent this error by adding a check before the assignment.
